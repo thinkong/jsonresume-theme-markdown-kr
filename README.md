@@ -1,3 +1,5 @@
+# Forked to translate in to Korean
+
 # Basic Markdown theme [![](https://badge.fury.io/js/jsonresume-theme-markdown.png)](https://www.npmjs.com/package/jsonresume-theme-markdown)
 
 This is the basic markdown theme for [JSON Resume](http://jsonresume.org/).

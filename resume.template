@@ -27,7 +27,7 @@
 {{summary}}{{/if}}
 {{/basics}}
 
-{{#if work}}## Work
+{{#if work}}## 경력
 
 {{#each work}}
 ### {{position}}{{#if company}}, {{#if website}}[{{company}}]({{{website}}}){{^}}{{company}}{{/if}}{{/if}}
@@ -42,7 +42,7 @@
 {{/each}}
 {{/if}}
 
-{{#if volunteer}}## Volunteer
+{{#if volunteer}}## 자원봉사
 
 {{#each volunteer}}
 ### {{position}}{{#if organization}}, {{#if website}}[{{organization}}]({{{website}}}){{^}}{{organization}}{{/if}}{{/if}}
@@ -57,7 +57,7 @@
 {{/each}}
 {{/if}}
 
-{{#if education}}## Education
+{{#if education}}## 교육
 
 {{#each education}}
 ### {{institution}}{{#if studyType}} - {{studyType}}{{/if}}{{#if area}} in {{area}}{{/if}}
@@ -70,7 +70,7 @@
 {{/each}}
 {{/if}}
 
-{{#if awards}}## Awards
+{{#if awards}}## 수상이력
 
 {{#each awards}}
 ### {{title}}{{#if awarder}} from {{awarder}}{{/if}}{{#if date}} on {{date}}{{/if}}
@@ -80,7 +80,7 @@
 {{/each}}
 {{/if}}
 
-{{#if publications}}## Publications
+{{#if publications}}## 논문
 
 {{#each publications}}
 ### {{#if website}}[{{name}}{{#if publisher}} - {{publisher}}{{/if}}]({{{website}}}){{^}}{{name}}{{#if publisher}} - {{publisher}}{{/if}}{{/if}}
@@ -90,28 +90,28 @@
 {{/each}}
 {{/if}}
 
-{{#if skills}}## Skills
+{{#if skills}}## 기술
 
 {{#each skills}}
 * {{#if level}}{{level}} in {{/if}}{{name}}{{#if keywords}} ({{commaSeparated keywords}}){{/if}}
 {{/each}}
 {{/if}}
 
-{{#if languages}}## Languages
+{{#if languages}}## 언어능력
 
 {{#each languages}}
 * {{#if fluency}}{{fluency}} in {{/if}}{{language}}
 {{/each}}
 {{/if}}
 
-{{#if interests}}## Interests
+{{#if interests}}## 관심사
 
 {{#each interests}}
 * {{name}}{{#if keywords}} ({{commaSeparated keywords}}){{/if}}
 {{/each}}
 {{/if}}
 
-{{#if references}}## References
+{{#if references}}## 레퍼런스
 
 {{#each references}}
 > {{reference}} -- <cite>{{name}}</cite>
